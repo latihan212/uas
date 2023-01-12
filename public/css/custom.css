@@ -1,0 +1,55 @@
+.card-portfolio {
+    height: max-content;
+    position: relative;
+    border-radius: 50px;
+    background: #fffafa;
+    box-shadow: 20px 20px 60px #d9d5d5, -20px -20px 60px #ffffff;
+}
+
+.aboutmeTitle {
+    color: #4a4a4a;
+    font-weight: bold;
+}
+
+.aboutmeDescription {
+    color: #4a4a4a;
+    opacity: 50%;
+}
+
+.containerActivity {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.loginBox {
+    width: 80%;
+    height: 80%;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .containerActivity {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .card-portfolio {
+        width: 90%;
+    }
+
+    .boxLogo {
+        justify-content: center;
+        display: flex;
+    }
+
+    .imgLogo {
+        width: 50%;
+    }
+
+    .loginBox {
+        width: auto;
+        height: auto;
+    }
+}
